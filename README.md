@@ -46,5 +46,5 @@ Dans ce dépôt du Projet de S6, vous trouverez :
 # Inspirations et Références :
 
 - Jeu de rôle **Arches** créé par **[Xavier Lesieu](https://www.artstation.com/raessyh)**
-- Jeu PHP **[String Fighters](http://www.docteeboh.net/stringfighters/string-fighters-jeu-en-php.php)**
+- Jeu PHP à l'origine de l'idée du projet **[Caché pour Antoine](https://www.youtube.com/watch?v=dQw4w9WgXcQ)**
 
