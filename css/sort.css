@@ -1,0 +1,156 @@
+.gameForm {
+	background-color: #1d2129;
+    padding: 50px;
+	width: 70%;
+    border: 1px #13181919 solid;
+    outline: 20px hsl(240deg 0% 100%) solid;
+	outline-color: #121618;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	color: white;
+}
+.gameForm button[type="submit"] {
+	align-self: center;
+	margin: 30px 30px 30px 30px;
+	border: 1px transparent solid;
+	border-radius: 3px;
+	color: #ccc;
+	padding: 15px 50px;
+	font-family: OpenSansCondensed;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+	background-color: #291d1d;
+	transition: all .15s ease-out;
+	border-color: #888;
+}
+.gameForm button[type="submit"]:hover {
+	background-color: #793636;
+	border-color: transparent;
+	color: white;
+}
+
+.gameForm button[type="submitAllGames"] {
+	align-self: center;
+	margin: 30px 30px 30px 30px;
+	border: 1px transparent solid;
+	border-radius: 3px;
+	color: #ccc;
+	padding: 15px 50px;
+	font-family: OpenSansCondensed;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+	background-color: #272323;
+	transition: all .15s ease-out;
+	border-color: #888;
+}
+.gameForm button[type="submitAllGames"]:hover {
+	background-color: #463434;
+	border-color: transparent;
+	color: white;
+}
+
+.gameForm button[type="tri"] {
+	border: 1px transparent solid;
+	border-radius: 3px;
+	background-color: rgb(39, 40, 53);
+	padding: 10px 20px;
+	font-size: 16px;
+	margin-top: 5px;
+	color: #ccc;
+	border-color: #444;
+}
+.gameForm button[type="tri"]:hover {
+	background-color: #2e2d4e;
+	border-color: transparent;
+	color: white;
+	cursor: pointer;
+}
+
+.gameForm .submitButtons,
+.gameForm .triButtons {
+	align-self: center;
+}
+
+.filtreForm {
+	color: #ccc;
+	font-size: 15px;
+	background-color: rgb(43, 42, 51);
+	align-self: center;
+	margin-top: 15px;
+}
+
+.gameForm label {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	font-family: OpenSansCondensed;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.gameForm label:not(:first-of-type) {
+	margin-top: 30px;
+}
+.gameForm label small{
+	margin-top: 5px;
+	text-transform: none;
+	font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 12px;
+	opacity: .6;
+	letter-spacing: 1;
+}
+.gameForm label code{
+	font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: #13181919;
+	padding: 2px 4px;
+	border-radius: 3px;
+}
+.gameForm input {
+	border: 1px #333 solid;
+	border-radius: 3px;
+	background-color: #1d2129;
+	padding: 10px 20px;
+	font-size: 16px;
+	margin-top: 5px;
+	color: #ccc;
+}
+
+@media (max-width: 1250px) {
+	.gameForm {
+		width: 620px;
+	}
+	.gameForm button[type="submit"] {
+		align-self: flex-end;
+	}
+}
+@media (max-width: 850px) {
+	.gameForm {
+		width: 70%;
+	}
+}
+@media (max-width: 700px) {
+	.gameForm {
+		width: 70%;
+		min-width: 270px;
+	}
+}
+@media (max-width: 500px) {
+	.gameForm {
+		width: 270px;
+	}
+}
+input::placeholder {
+	font-weight: lighter !important;
+	color: #333;
+}

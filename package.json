@@ -1,0 +1,26 @@
+{
+  "name": "projet-s6_gallego-delaby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --mode=development --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab-etu.fil.univ-lille1.fr:gallego/projet-s6_gallego-delaby.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "babel-loader": "^8.2.3",
+    "prettier": "^2.5.1",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

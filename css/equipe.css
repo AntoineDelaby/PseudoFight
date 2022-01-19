@@ -1,0 +1,93 @@
+.equipe ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 10px;
+	color: #ccc;
+}
+
+.equipe ul li:first-child {
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow:#ffe69a 0 -1px 0,
+				#ff6767 1px 1px 0,
+				#ca3333 2px 2px 0,
+				#770a0c 3px 3px 0,
+				#333 4px 4px 8px;
+	color:#FFE5BF;
+	margin-bottom: 10px;
+}
+
+.equipe ul li:last-child {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Float 3 columns side by side */
+.EquipeThumbnail {
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
+  
+/* Remove extra left and right margins, due to padding in columns */
+.equipe {
+	align-items: center;
+	width: 100%;
+}
+  
+/* Clear floats after the columns */
+.equipe:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+  
+/* Style the counter cards */
+.EquipeThumbnail {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+	padding: 16px;
+	margin: 1%;
+	text-align: center;
+	background-color: #1d2129;
+}
+
+.EquipeThumbnail::after {
+	padding-right: 100px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 650px) {
+	.EquipeThumbnail {
+	  width: 100%;
+	  display: block;
+	  margin-bottom: 20px;
+	}
+}
+
+.equipe>.EquipeThumbnail:hover img {
+	opacity: .8;
+}
+
+.equipe>.EquipeThumbnail img {
+	min-height: 300px;
+	object-fit: cover;
+	mix-blend-mode: normal;
+	opacity: 1;
+	background-color: #f5c7be;
+	filter: contrast(1.1);
+}
+
+.equipe>.EquipeThumbnail img,
+.equipe>.EquipeThumbnail ul {
+	width: 100%;
+	flex-grow: 1;
+}
+/*.equipe>.column>div img,
+.equipe>.column>div ul,
+.equipe>.column>div ul:before {
+	transition: all .7s cubic-bezier(.190, 1.000, .220, 1.000), width .2s cubic-bezier(.190, 1.000, .220, 1.000);
+}*/
