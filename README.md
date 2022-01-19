@@ -8,7 +8,7 @@
 - [Bible JS](https://developer.mozilla.org/fr/docs/Web)
 - [Dépôt GIT](https://gitlab-etu.fil.univ-lille1.fr/gallego/projet-s6_gallego-delaby)
 - [Lien HTTP Clone GIT](https://gitlab-etu.fil.univ-lille1.fr/gallego/projet-s6_gallego-delaby.git)
-- [Lien SSH Clone GIT](git@gitlab-etu.fil.univ-lille1.fr:gallego/projet-s6_gallego-delaby.git)
+- Lien SSH Clone GIT : git@gitlab-etu.fil.univ-lille1.fr:gallego/projet-s6_gallego-delaby.git
 - [Ressources du cours](https://www.fil.univ-lille1.fr/~routier/enseignement/licence/jsfs/)
 - [Ressouces des TPs](https://www.fil.univ-lille1.fr/~routier/enseignement/licence/jsfs/tdtp/index.html)
 - [Lien local Projet](http://localhost:8000)
